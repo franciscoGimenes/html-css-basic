@@ -6,7 +6,7 @@ h1{
     text-align: center;
 }
 header{
-    background-color: aqua;
+    background-color: darkseagreen;
     padding: 20px 0px;
     position: sticky;
     top: 0;
@@ -21,7 +21,7 @@ header{
 .curso{
     border: 1px solid black;
     padding: 20px;
-    max-width: 700px;
+    width: 700px;
     margin-top: 40px;
     background-color: darkseagreen;
     text-align: center;
@@ -34,4 +34,8 @@ header{
 button{
     border: black solid 1px;
     padding: 10px 20px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 1rem;
 }
