@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+header{
+    background-color: aqua;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+}
+#titulo-tema{
+    margin-top: 40px;
+    border-bottom: 2px black solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 2px black solid;
+}
+.curso{
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 700px;
+    margin-top: 40px;
+    background-color: darkseagreen;
+    text-align: center;
+}
+.caixa-curso{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    border: black solid 1px;
+    padding: 10px 20px;
+}

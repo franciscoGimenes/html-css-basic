@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+.NextStep{
+    width: 10em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.PrincipalCima{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+}
+.MainCima{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    font-family:'Times New Roman', Times, serif
+}
+.imagemDanca{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 10%;
+}
+.DanceText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+}
+.DanceAll{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    align-items: center;
+    border: #000000 solid;
+    width: 40rem;
+    border-radius: 10%;
+}
+.cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    margin-top: 5rem;
+    height: 10rem;
+    background-color: #000000;
+}
+a{
+    text-align: center;
+}
